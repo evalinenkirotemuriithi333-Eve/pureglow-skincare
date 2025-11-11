@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional global styles */
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-gray-800 antialiased; margin:0; padding:0; }
